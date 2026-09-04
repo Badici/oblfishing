@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "isMock": true,
+    "note": "Texte de capitol pentru prezentare. Înlocuiește după validarea comunicării de brand."
+  },
+  "items": [
+    {
+      "id": "boilies-de-nadit",
+      "slug": "boilies-de-nadit",
+      "name": "Boilies de nădit",
+      "chapter": "01",
+      "anchor": "boilies-de-nadit",
+      "kicker": "Capitolul 01",
+      "title": "Nădirea începe înainte ca peștele să ajungă pe vad.",
+      "intro": [
+        "Un vad bun nu se improvizază în ultima aruncătură. Se construiește din ritm, din cantitate și dintr-un profil pe care peștele îl recunoaște fără să fie saturat.",
+        "Boilies-urile de nădit OBL sunt gândite pentru partide în care vrei control: atragi, ții pește în zonă și lași cârligul să lucreze separat."
+      ],
+      "theme": "paper"
+    },
+    {
+      "id": "boilies-de-carlig",
+      "slug": "boilies-de-carlig",
+      "name": "Boilies de cârlig",
+      "chapter": "02",
+      "anchor": "boilies-de-carlig",
+      "kicker": "Capitolul 02",
+      "title": "Cârligul cere un alt limbaj decât nădirea.",
+      "intro": [
+        "Pe montură, detaliul contează altfel: densitate, eliberare de aromă, cum stă boilies-ul lângă plumb și cum se citește în apă tulbure sau limpede.",
+        "Gama de cârlig este construită pentru prezentări precise — de la wafteri discreți până la pop-up-uri care marchează un punct clar pe vad."
+      ],
+      "theme": "ink"
+    },
+    {
+      "id": "accesorii",
+      "slug": "accesorii",
+      "name": "Accesorii",
+      "chapter": "03",
+      "anchor": "accesorii",
+      "kicker": "Capitolul 03",
+      "title": "Fiecare detaliu al monturii are un rol.",
+      "intro": [
+        "Accesoriile ar trebui să facă exact același lucru: să fie simple, predictibile și să nu ceară atenție în plus când partida e deja în desfășurare.",
+        "PVA, fir de cârlig, kit de montură — piese de sprijin, nu spectacol. Alese ca să rămână în ordine lângă lansetă."
+      ],
+      "theme": "gold"
+    }
+  ]
+}

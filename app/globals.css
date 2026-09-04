@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+:root {
+  --brand-ink: #111111;
+  --brand-paper: #f5f3ed;
+  --brand-white: #ffffff;
+  --brand-slate: #546084;
+  --brand-slate-dark: #3a4560;
+  --brand-slate-deep: #2c3448;
+  --brand-olive: #7a7a6c;
+  --brand-gold: #ccb43c;
+  --brand-gold-soft: #d4c46a;
+  --brand-gold-deep: #a89432;
+
+  --background: var(--brand-paper);
+  --foreground: var(--brand-ink);
+
+  --font-display-stack: var(--font-display-family), "Roboto Slab", Georgia, serif;
+  --font-body-stack: var(--font-body-family), Inter, system-ui, sans-serif;
+
+  --container: 78rem;
+  --navbar-height: 4.5rem;
+  --readable: 38rem;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  --shadow-soft: 0 18px 40px -28px rgb(17 17 17 / 0.45);
+  --ease-out-premium: cubic-bezier(0.22, 1, 0.36, 1);
+  --brand-gradient: linear-gradient(
+    135deg,
+    var(--brand-slate) 0%,
+    var(--brand-olive) 48%,
+    var(--brand-gold) 100%
+  );
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--brand-ink);
+  --color-paper: var(--brand-paper);
+  --color-slate: var(--brand-slate);
+  --color-slate-dark: var(--brand-slate-dark);
+  --color-slate-deep: var(--brand-slate-deep);
+  --color-olive: var(--brand-olive);
+  --color-gold: var(--brand-gold);
+  --color-gold-soft: var(--brand-gold-soft);
+  --color-gold-deep: var(--brand-gold-deep);
+  --font-display: var(--font-display-stack);
+  --font-sans: var(--font-body-stack);
+  --shadow-soft: var(--shadow-soft);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --navbar-height: 5.5rem;
+  }
+}
+
+html {
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--navbar-height) + 0.75rem);
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body-stack);
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--font-body-stack);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display-stack);
+}
+
+::selection {
+  background: var(--brand-gold);
+  color: var(--brand-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-gold);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100%;
+  z-index: 80;
+  background: var(--brand-ink);
+  color: var(--brand-paper);
+  padding: 0.75rem 1rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.section-anchor {
+  scroll-margin-top: calc(var(--navbar-height) + 0.85rem);
+}
+
+.brand-gradient {
+  background-image: var(--brand-gradient);
+}
+
+.grain::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.07;
+  background-image: url("/placeholders/grain.png");
+  background-size: 160px 160px;
+  mix-blend-mode: overlay;
+}
+
+.scale-pattern {
+  background-image: url("/placeholders/scale.svg");
+  background-size: 48px 28px;
+  opacity: 0.045;
+}
+
+.readable {
+  max-width: var(--readable);
+}
+
+.editorial-measure {
+  max-width: 42rem;
+}
+
+.field {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 1px solid rgb(17 17 17 / 0.18);
+  background: var(--brand-white);
+  padding: 0.65rem 0.8rem;
+  color: var(--brand-ink);
+  font: inherit;
+  border-radius: var(--radius-sm);
+}
+
+.field:focus {
+  outline: 2px solid var(--brand-gold);
+  outline-offset: 1px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes drift {
+  from {
+    transform: scale(1.06) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.12) translate3d(0, -2.4%, 0);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pulse-badge {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.12);
+  }
+}
+
+.hero-photo {
+  transform: scale(1.04);
+  filter: brightness(0.88) saturate(1.04);
+}
+
+.hero-drift {
+  animation: drift 28s var(--ease-out-premium) infinite alternate;
+  will-change: transform;
+}
+
+.reveal {
+  animation: rise 0.7s var(--ease-out-premium) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-drift,
+  .reveal,
+  .pulse-cart {
+    animation: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

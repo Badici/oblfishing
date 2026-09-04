@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "isMock": true,
+    "note": "Capturi din public/gallery/mock. Înlocuiește textele când ai datele finale ale partidelor."
+  },
+  "items": [
+    {
+      "id": "captura-01",
+      "image": "/gallery/mock/captura1.jpeg",
+      "alt": "Captură pe vad: crap ținut deasupra apei, la mal",
+      "caption": "Un punct pe vad. Același loc, altă oră.",
+      "weight": "hero",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "captura-02",
+      "image": "/gallery/mock/captura2.jpeg",
+      "alt": "Captură: crap ținut lângă apă",
+      "caption": "Partidă scurtă, rezultat exact unde trebuia.",
+      "weight": "wide",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "captura-03",
+      "image": "/gallery/mock/captura3.jpeg",
+      "alt": "Captură: crap ținut în lumină de zi",
+      "caption": "Lumină scurtă de după-amiază. Montura a rămas neschimbată.",
+      "weight": "wide",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "captura-04",
+      "image": "/gallery/mock/captura4.jpeg",
+      "alt": "Captură: crap ținut aproape de mal",
+      "caption": "Pregătire liniștită, apoi răbdare. Nimic spectaculos, totul la locul lui.",
+      "weight": "wide",
+      "width": 1600,
+      "height": 900
+    }
+  ]
+}

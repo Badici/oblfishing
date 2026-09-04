@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Scopex Banana">
+  <defs>
+    <linearGradient id="bg2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#546084"/>
+      <stop offset="1" stop-color="#C0A848"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <circle cx="900" cy="220" r="260" fill="#F5F3ED" fill-opacity="0.08"/>
+  <circle cx="280" cy="520" r="210" fill="#CCB43C" fill-opacity="0.22"/>
+  <circle cx="420" cy="400" r="70" fill="#CCB43C"/>
+  <text x="72" y="120" font-family="Georgia, serif" font-size="20" letter-spacing="7" fill="#F5F3ED" fill-opacity="0.65">DETALIU PRODUS</text>
+  <text x="70" y="700" font-family="Georgia, serif" font-size="96" fill="#F5F3ED">SB</text>
+  <text x="74" y="748" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#F5F3ED" fill-opacity="0.7">Scopex Banana</text>
+</svg>

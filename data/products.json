@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "isMock": true,
+    "note": "CATALOG MOCK. Imaginile din public/gallery/mock sunt materiale de lucru, de înlocuit cu foto finale OBL."
+  },
+  "items": [
+    {
+      "id": "obl-squid-strawberry",
+      "slug": "obl-squid-strawberry",
+      "name": "OBL Squid & Strawberry",
+      "category": "boilies-de-nadit",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Calamar & căpșună",
+      "tagline": "Atracție rapidă, fără să transformi vadul într-o cantină.",
+      "shortDescription": "Un boilies construit pentru partide în care ai nevoie de o atracție rapidă, dar fără să transformi vadul într-o sursă constantă de hrană.",
+      "story": [
+        "Profilul calamar–căpșună lucrează bine când vrei un semnal clar, imediat citibil, mai ales în ape cu presiune de pescuit.",
+        "Îl poți folosi ca bază de nădire scurtă sau ca punct de recunoaștere lângă o momeală de cârlig din aceeași familie."
+      ],
+      "usage": [
+        "Nădire de start, în cantități controlate",
+        "Reînnoire discretă a vadului la 45–90 de minute",
+        "Potrivit lângă hookbait din aceeași gamă de aromă"
+      ],
+      "recommendedFor": [
+        "Ape cu presiune medie și ridicată",
+        "Partide de zi, când peștele răspunde rapid",
+        "Vaduri deja cunoscute, unde vrei un semnal familiar"
+      ],
+      "basePrice": 32,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/boillies-squid-capsuna-1.png",
+          "alt": "OBL Squid & Strawberry — ambalaj boilies de nădit",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boillies-squid-capsuna-2.png",
+          "alt": "OBL Squid & Strawberry — variantă de ambalaj",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies2.jpeg",
+          "alt": "Boilies de nădit, detaliu de produs",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "options": {
+        "sizes": [
+          {
+            "value": "16mm",
+            "label": "16 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "20mm",
+            "label": "20 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "24mm",
+            "label": "24 mm",
+            "priceDelta": 0
+          }
+        ],
+        "types": [
+          {
+            "value": "tari",
+            "label": "Tari",
+            "priceDelta": 0
+          },
+          {
+            "value": "solubile",
+            "label": "Solubile",
+            "priceDelta": 0
+          }
+        ]
+      },
+      "featured": true,
+      "tags": [
+        "nădit",
+        "calamar",
+        "căpșună"
+      ],
+      "specifications": [
+        {
+          "label": "Familie",
+          "value": "Boilies de nădit"
+        },
+        {
+          "label": "Profil",
+          "value": "Calamar & căpșună"
+        }
+      ],
+      "layout": "sticky"
+    },
+    {
+      "id": "obl-scopex-banana",
+      "slug": "obl-scopex-banana",
+      "name": "OBL Scopex Banana",
+      "category": "boilies-de-nadit",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Scopex & banană",
+      "tagline": "Un profil dulce-cremos, ușor de ținut pe vad.",
+      "shortDescription": "Profilul dulce-cremos îl face potrivit atât pentru apă caldă, cât și pentru perioadele în care crapul răspunde mai bine la semnale alimentare discrete.",
+      "story": [
+        "Scopex Banana nu strigă. Lucrează ca un fond alimentar pe care peștele îl poate recunoaște de la o partidă la alta.",
+        "E o alegere bună când vrei continuitate: aceeași nădire, același punct, fără să schimbi radical mesajul din apă."
+      ],
+      "usage": [
+        "Nădire de durată, în ritm constant",
+        "Combinat cu particule, în cantități mici",
+        "Recomandat când temperatura apei urcă"
+      ],
+      "recommendedFor": [
+        "Ape calde și partide lungi",
+        "Vaduri pe care le pescuiești repetat",
+        "Pescari care preferă un profil dulce, nu agresiv"
+      ],
+      "basePrice": 32,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/boillies-scopex-banana-1.png",
+          "alt": "OBL Scopex Banana — ambalaj boilies de nădit",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boillies-scopex-banana-2.png",
+          "alt": "OBL Scopex Banana — variantă de ambalaj",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies3.jpeg",
+          "alt": "Boilies de nădit, detaliu de produs",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "options": {
+        "sizes": [
+          {
+            "value": "16mm",
+            "label": "16 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "20mm",
+            "label": "20 mm",
+            "priceDelta": 0
+          }
+        ],
+        "types": [
+          {
+            "value": "tari",
+            "label": "Tari",
+            "priceDelta": 0
+          },
+          {
+            "value": "solubile",
+            "label": "Solubile",
+            "priceDelta": 0
+          }
+        ]
+      },
+      "featured": false,
+      "tags": [
+        "nădit",
+        "scopex",
+        "banană"
+      ],
+      "layout": "split-right"
+    },
+    {
+      "id": "obl-fishmeal-special",
+      "slug": "obl-fishmeal-special",
+      "name": "OBL Fishmeal Special",
+      "category": "boilies-de-nadit",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Fishmeal",
+      "tagline": "Un semnal alimentar clasic, pentru vaduri care cer greutate.",
+      "shortDescription": "Un boilies cu bază de făină de pește, gândit pentru partide în care vrei un mesaj alimentar clar și o prezență stabilă pe fund.",
+      "story": [
+        "Fishmeal Special rămâne acolo unde l-ai pus. Nu e o nădire de spectacol, ci una de lucru — pentru ape în care peștele caută hrană, nu surprize.",
+        "Funcționează bine ca bază de sezon, mai ales când preferi un profil sărat, dens, ușor de recunoscut."
+      ],
+      "usage": [
+        "Nădire de fund, în cantități medii",
+        "Partide pe ape naturale, cu fund ferm",
+        "Poate fi ținut pe vad peste noapte, în variantă tare"
+      ],
+      "recommendedFor": [
+        "Ape naturale și vaduri adânci",
+        "Sezoane cu apă mai rece",
+        "Pescari care lucrează cu nădire de durată"
+      ],
+      "basePrice": 34,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/boillies-peste-scoica-1.png",
+          "alt": "OBL Fishmeal Special — ambalaj boilies de nădit",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boillies-peste-scoica-2.png",
+          "alt": "OBL Fishmeal Special — variantă de ambalaj",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies4.jpeg",
+          "alt": "Boilies de nădit, detaliu de produs",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "options": {
+        "sizes": [
+          {
+            "value": "20mm",
+            "label": "20 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "24mm",
+            "label": "24 mm",
+            "priceDelta": 0
+          }
+        ],
+        "types": [
+          {
+            "value": "tari",
+            "label": "Tari",
+            "priceDelta": 0
+          }
+        ]
+      },
+      "featured": false,
+      "tags": [
+        "nădit",
+        "fishmeal"
+      ],
+      "layout": "split-left"
+    },
+    {
+      "id": "obl-squid-hookbait",
+      "slug": "obl-squid-hookbait",
+      "name": "OBL Squid Hookbait",
+      "category": "boilies-de-carlig",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Hookbait",
+      "tagline": "Același limbaj ca nădirea, concentrat pe cârlig.",
+      "shortDescription": "Un boilies de cârlig din familia Squid, pregătit pentru prezentări precise și pentru partide în care timpul de reacție contează.",
+      "story": [
+        "Squid Hookbait păstrează profilul recunoscut din nădire, dar lucrează altfel pe montură: mai dens, mai citibil, fără să se piardă lângă plumb.",
+        "E o alegere naturală când vadul e deja deschis cu Squid & Strawberry și vrei ca momeala de cârlig să vorbească aceeași limbă."
+      ],
+      "usage": [
+        "Montură clasică, cu boilies pe fir de cârlig",
+        "Potrivit după o nădire din aceeași familie",
+        "Lucrează bine în apă ușor tulbure"
+      ],
+      "recommendedFor": [
+        "Vaduri deja nădite",
+        "Prezentări de fund",
+        "Partide în care vrei continuitate de aromă"
+      ],
+      "basePrice": 24,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/hibrid-squid-pruna-14mm-1.png",
+          "alt": "OBL Squid Hookbait — boilies de cârlig",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/hibrid-squid-pruna-12mm-1.png",
+          "alt": "OBL Squid Hookbait — variantă 12 mm",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/dumbell-pruna-squid-20mm-1.png",
+          "alt": "OBL Squid Hookbait — dumbell de cârlig",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": {
+        "sizes": [
+          {
+            "value": "16mm",
+            "label": "16 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "20mm",
+            "label": "20 mm",
+            "priceDelta": 0
+          }
+        ],
+        "types": [
+          {
+            "value": "tari",
+            "label": "Tari",
+            "priceDelta": 0
+          }
+        ]
+      },
+      "featured": true,
+      "tags": [
+        "cârlig",
+        "calamar"
+      ],
+      "layout": "sticky"
+    },
+    {
+      "id": "obl-scopex-wafter",
+      "slug": "obl-scopex-wafter",
+      "name": "OBL Scopex Wafter",
+      "category": "boilies-de-carlig",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Wafter",
+      "tagline": "O prezentare care stă între fund și suspendare.",
+      "shortDescription": "Un wafter cu profil Scopex, gândit pentru monturi fine, când peștele testează momeala și respinge ușor o prezentare prea grea.",
+      "story": [
+        "Scopex Wafter nu forțează. Rămâne în zona în care crapul poate lua momeala fără să simtă imediat greutatea monturii.",
+        "Funcționează bine pe vaduri presate și în ape limpezi, unde prezentarea contează mai mult decât cantitatea de nădire."
+      ],
+      "usage": [
+        "Monturi fine, cu cârlig mic",
+        "Ape limpezi sau cu presiune ridicată",
+        "Potrivit lângă o nădire Scopex discretă"
+      ],
+      "recommendedFor": [
+        "Pescuit de precizie",
+        "Vaduri presate",
+        "Prezentări critice, aproape de mal sau pe spot cunoscut"
+      ],
+      "basePrice": 26,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/hibrid-monstercrab-12mm-2.png",
+          "alt": "OBL Scopex Wafter — boilies de cârlig",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/elixir-monstercrab.png",
+          "alt": "OBL Scopex Wafter — variantă de ambalaj",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies5.jpeg",
+          "alt": "Boilies de cârlig, detaliu de produs",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "options": {
+        "sizes": [
+          {
+            "value": "12mm",
+            "label": "12 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "16mm",
+            "label": "16 mm",
+            "priceDelta": 0
+          }
+        ]
+      },
+      "featured": false,
+      "tags": [
+        "cârlig",
+        "wafter",
+        "scopex"
+      ],
+      "layout": "split-left"
+    },
+    {
+      "id": "obl-popup-citrus",
+      "slug": "obl-popup-citrus",
+      "name": "OBL Pop-Up Citrus",
+      "category": "boilies-de-carlig",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Pop-up",
+      "tagline": "Un punct vizibil, deasupra restului de nădire.",
+      "shortDescription": "Un pop-up citric, pentru situațiile în care vrei ca momeala de cârlig să stea deasupra haldei și să rămână ușor de găsit.",
+      "story": [
+        "Pop-Up Citrus marchează un loc. Nu înlocuiește nădirea, ci o completează — mai ales când fundul e acoperit de resturi sau când vrei o prezentare ușor ridicată.",
+        "Profilul citric rămâne citibil și în ape mai calde, fără să ceară o nădire agresivă în jur."
+      ],
+      "usage": [
+        "Prezentare ridicată deasupra nădirii",
+        "Fund cu mâl sau resturi vegetale",
+        "Spot-uri scurte, verificate cu plumbul"
+      ],
+      "recommendedFor": [
+        "Ape cu fund moale",
+        "Partide de zi, cu vizibilitate bună",
+        "Când vrei un contrast clar față de nădire"
+      ],
+      "basePrice": 27,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/hibrid-scoica-squid-20mm-1.png",
+          "alt": "OBL Pop-Up Citrus — boilies de cârlig",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/hibrid-scoica-squid-20mm-2.png",
+          "alt": "OBL Pop-Up Citrus — variantă de ambalaj",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies6.jpeg",
+          "alt": "Boilies de cârlig, detaliu de produs",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "options": {
+        "sizes": [
+          {
+            "value": "12mm",
+            "label": "12 mm",
+            "priceDelta": 0
+          },
+          {
+            "value": "14mm",
+            "label": "14 mm",
+            "priceDelta": 0
+          }
+        ]
+      },
+      "featured": false,
+      "tags": [
+        "cârlig",
+        "pop-up",
+        "citrus"
+      ],
+      "layout": "split-right"
+    },
+    {
+      "id": "obl-pva-bags",
+      "slug": "obl-pva-bags",
+      "name": "OBL PVA Bags",
+      "category": "accesorii",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "PVA",
+      "tagline": "O încărcătură scurtă, exact lângă cârlig.",
+      "shortDescription": "Pungi PVA pentru o prezentare compactă: nădirea ajunge lângă montură, nu împrăștiată pe o rază pe care n-o controlezi.",
+      "story": [
+        "PVA-ul e util când vrei un punct, nu o hală. Umpli, arunci, lași punga să lucreze și ții restul de nădire pentru ritmul partidei.",
+        "Un accesoriu de ordine: mai puțină risipă, mai mult control lângă cârlig."
+      ],
+      "usage": [
+        "Pungi mici, lângă hookbait",
+        "Spot-uri scurte, verificate",
+        "Când vântul sau distanța cer o prezentare compactă"
+      ],
+      "recommendedFor": [
+        "Partide scurte",
+        "Ape cu curent slab",
+        "Pescari care lucrează punctual, nu pe suprafețe mari"
+      ],
+      "basePrice": 18,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/montura-leadcore-bag-80g.png",
+          "alt": "OBL PVA Bags — accesoriu de montură",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boillies1.jpeg",
+          "alt": "Detaliu de nădire, lângă montură",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "/gallery/mock/boilies2.jpeg",
+          "alt": "Boilies pregătite pentru o prezentare compactă",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "featured": true,
+      "tags": [
+        "accesorii",
+        "pva"
+      ],
+      "specifications": [
+        {
+          "label": "Tip",
+          "value": "Pungi PVA solubile"
+        }
+      ],
+      "layout": "sticky"
+    },
+    {
+      "id": "obl-bait-floss",
+      "slug": "obl-bait-floss",
+      "name": "OBL Bait Floss",
+      "category": "accesorii",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Fir de cârlig",
+      "tagline": "Prindere curată, fără să complici montura.",
+      "shortDescription": "Fir pentru prinderea momelii de cârlig, gândit să rămână discret și să nu adauge volum inutil lângă cârlig.",
+      "story": [
+        "Un detaliu mic, vizibil doar dacă lipsește. Bait floss-ul ține boilies-ul acolo unde l-ai pus și lasă cârligul să lucreze.",
+        "Nu e un accesoriu de spectacol. E o piesă de ordine, pentru monturi pe care le repeți de zeci de ori într-o partidă."
+      ],
+      "usage": [
+        "Prinderea boilies-ului de cârlig",
+        "Pop-up-uri și wafteri",
+        "Monturi pe care le reînnoiești des"
+      ],
+      "recommendedFor": [
+        "Orice prezentare pe cârlig",
+        "Pescari care pregătesc mai multe monturi din timp"
+      ],
+      "basePrice": 14,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/boilies3.jpeg",
+          "alt": "OBL Bait Floss — detaliu lângă momeala de cârlig",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "/gallery/mock/hibrid-squid-pruna-12mm-1.png",
+          "alt": "Momeală de cârlig prinsă discret",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies5.jpeg",
+          "alt": "Detaliu de prezentare pe cârlig",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "featured": false,
+      "tags": [
+        "accesorii",
+        "fir"
+      ],
+      "layout": "split-right"
+    },
+    {
+      "id": "obl-rig-kit",
+      "slug": "obl-rig-kit",
+      "name": "OBL Rig Kit",
+      "category": "accesorii",
+      "active": true,
+      "isMock": true,
+      "eyebrow": "Montură",
+      "tagline": "Piesele de bază, ținute laolaltă.",
+      "shortDescription": "Un kit de montură cu elementele esențiale pentru a pregăti o lansetă fără să cauți piese prin geantă în ultimul moment.",
+      "story": [
+        "Rig Kit nu înlocuiește experiența. Îți ține la îndemână ce folosești oricum: piese simple, alese ca să nu intre în conflict una cu alta.",
+        "E util la început de sezon sau când vrei un set de rezervă în mașină, nu o cutie spectaculoasă."
+      ],
+      "usage": [
+        "Pregătirea monturilor acasă",
+        "Set de rezervă pentru partidă",
+        "Completare pentru geanta de cârlig"
+      ],
+      "recommendedFor": [
+        "Pescari care vor un set de bază, fără surplus",
+        "Partide în care schimbi des prezentarea"
+      ],
+      "basePrice": 25,
+      "currency": "RON",
+      "images": [
+        {
+          "src": "/gallery/mock/montura-leadcore-bag-80g.png",
+          "alt": "OBL Rig Kit — piese de montură",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/gallery/mock/boilies4.jpeg",
+          "alt": "Montură pregătită lângă nădire",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "/gallery/mock/boillies1.jpeg",
+          "alt": "Detaliu de echipare pentru partidă",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "featured": false,
+      "tags": [
+        "accesorii",
+        "montură"
+      ],
+      "layout": "split-left"
+    }
+  ]
+}
